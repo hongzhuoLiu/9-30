@@ -1,0 +1,14 @@
+# Strapi backend environment variables file: .env
+# Email service configuration
+SENDGRID_API_KEY=your_sendgrid_api_key_here
+DEFAULT_FROM_EMAIL=noreply@studentschoice.blog
+DEFAULT_REPLY_TO_EMAIL=support@studentschoice.blog
+TEST_EMAIL_ADDRESS=admin@studentschoice.blog
+
+# Other existing environment variables...
+DATABASE_HOST=your_database_host
+DATABASE_PORT=your_database_port
+DATABASE_NAME=your_database_name
+DATABASE_USERNAME=your_database_username
+DATABASE_PASSWORD=your_database_password
+JWT_SECRET=your_jwt_secret
